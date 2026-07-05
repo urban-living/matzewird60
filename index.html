@@ -1,58 +1,768 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Matze wird 60</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<nav><div class="logo">🎉 Matze wird 60</div><a href="#anmeldung">Anmelden</a></nav>
 
-<header class="hero">
-<div class="glass">
-<h1>Matze wird 60</h1>
-<p>10. Oktober 2026 · Beginn 17:00 Uhr · Die Alm</p>
-<div id="countdown"></div>
-<a class="btn" href="#einladung">Zur Einladung</a>
-</div>
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Matze wird 60</title>
+
+    <meta
+        name="description"
+        content="Ein Grund zum Feiern">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        🎉 Matze wird 60
+
+    </div>
+
+    <ul>
+
+        <li>
+            <a href="#home">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="#einladung">
+                Einladung
+            </a>
+        </li>
+
+        <li>
+            <a href="#programm">
+                Programm
+            </a>
+        </li>
+
+        <li>
+            <a href="#anfahrt">
+                Anfahrt
+            </a>
+        </li>
+
+        <li>
+            <a href="#anmeldung">
+                Anmeldung
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<header
+    id="home"
+    class="hero">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+
+            🎂 10. Oktober 2026
+
+        </p>
+
+        <h1>
+
+            MATZE WIRD 60
+
+        </h1>
+
+        <h2>
+
+            Ein Grund zum Feiern
+
+        </h2>
+
+        <p class="hero-text">
+
+            Gemeinsam feiern.<br>
+            Gemeinsam lachen.<br>
+            Gemeinsam einen unvergesslichen Abend erleben.
+
+        </p>
+
+        <div id="countdown">
+
+            <div class="time-box">
+
+                <span id="days">000</span>
+
+                <small>Tage</small>
+
+            </div>
+
+            <div class="time-box">
+
+                <span id="hours">00</span>
+
+                <small>Stunden</small>
+
+            </div>
+
+            <div class="time-box">
+
+                <span id="minutes">00</span>
+
+                <small>Minuten</small>
+
+            </div>
+
+            <div class="time-box">
+
+                <span id="seconds">00</span>
+
+                <small>Sekunden</small>
+
+            </div>
+
+        </div>
+
+        <div class="hero-buttons">
+
+            <a
+                href="#einladung"
+                class="btn-primary">
+
+                Einladung ansehen
+
+            </a>
+
+            <a
+                href="#programm"
+                class="btn-secondary">
+
+                Mehr erfahren
+
+            </a>
+
+        </div>
+
+    </div>
+
 </header>
 
-<section id="einladung" class="card">
-<h2>Einladung</h2>
-<img src="assets/einladung.png" alt="Einladung">
+<!-- ===========================
+     EINLADUNG
+=========================== -->
+
+<section
+    id="einladung"
+    class="section invitation">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>🎉 Einladung</span>
+
+            <h2>
+                Ein Abend,
+                den wir gemeinsam feiern
+            </h2>
+
+        </div>
+
+        <div class="invitation-card">
+
+            <img
+                src="assets/einladung.png"
+                alt="Einladung Matze wird 60">
+
+        </div>
+
+    </div>
+
 </section>
 
-<section class="grid">
-<div class="card"><h3>🍻 Empfang</h3><p>Ab 17:00 Uhr.</p></div>
-<div class="card"><h3>🍽 Essen</h3><p>Gemeinsames Abendessen.</p></div>
-<div class="card"><h3>🎵 Party</h3><p>Musik, Tanz und gute Stimmung.</p></div>
-<div class="card"><h3>🍺 Freitag</h3><p>Musikantenstammtisch.</p></div>
+
+<!-- ===========================
+     PROGRAMM
+=========================== -->
+
+<section
+    id="programm"
+    class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>🍻 Programm</span>
+
+            <h2>
+
+                Das erwartet Euch
+
+            </h2>
+
+        </div>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <div class="icon">
+                    🍻
+                </div>
+
+                <h3>Empfang</h3>
+
+                <p>
+
+                    Begrüßung ab
+                    <strong>17:00 Uhr</strong>
+
+                </p>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">
+                    🍽️
+                </div>
+
+                <h3>Abendessen</h3>
+
+                <p>
+
+                    Gemeinsames Essen
+                    ab 19:00 Uhr.
+
+                </p>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">
+                    🎵
+                </div>
+
+                <h3>Party</h3>
+
+                <p>
+
+                    Musik,
+                    Tanz
+                    und jede Menge gute Laune.
+
+                </p>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">
+                    🍺
+                </div>
+
+                <h3>Freitag</h3>
+
+                <p>
+
+                    Musikantenstammtisch
+                    für alle,
+                    die schon früher dabei sind.
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
 </section>
 
-<section class="card">
-<h2>📍 Veranstaltungsort</h2>
-<p>Die Alm · Reustadt 14 · 73110 Hattenhofen</p>
-<a class="btn" target="_blank" href="https://maps.google.com/?q=Die+Alm+Reustadt+14+73110+Hattenhofen">Route planen</a>
+
+<!-- ===========================
+     ANFAHRT
+=========================== -->
+
+<section
+    id="anfahrt"
+    class="section location">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>📍 Veranstaltungsort</span>
+
+            <h2>
+
+                Die Alm
+
+            </h2>
+
+        </div>
+
+        <div class="location-box">
+
+            <p>
+
+                Reustadt 14<br>
+                73110 Hattenhofen
+
+            </p>
+
+            <a
+
+                href="https://maps.google.com/?q=Die+Alm+Reustadt+14+73110+Hattenhofen"
+
+                target="_blank"
+
+                class="btn-primary">
+
+                Route planen
+
+            </a>
+
+        </div>
+
+    </div>
+
 </section>
 
-<section id="anmeldung" class="card">
-<h2>Anmeldung</h2>
-<form onsubmit="event.preventDefault();document.getElementById('ok').style.display='block';">
-<input placeholder="Name" required>
-<input placeholder="E-Mail (optional)" type="email">
-<select><option>1 Person</option><option>2 Personen</option><option>3 Personen</option><option>4 Personen</option></select>
-<label><input type="checkbox"> Ich komme auch am Freitag</label>
-<textarea placeholder="Bemerkungen"></textarea>
-<button class="btn">Anmeldung senden</button>
-</form>
-<div id="ok" style="display:none"><h3>🎉 Vielen Dank! Ich freue mich auf Euch.</h3></div>
+<!-- ==========================================
+     PERSÖNLICHE EINLADUNG
+=========================================== -->
+
+<section id="willkommen" class="section welcome">
+
+    <div class="container">
+
+        <div class="welcome-box">
+
+            <span class="section-tag">
+                ❤️ Schön, dass Ihr hier seid
+            </span>
+
+            <h2>
+                Gemeinsam feiern ist das Schönste
+            </h2>
+
+            <p class="lead">
+
+                60 Jahre sind ein wunderbarer Anlass,
+                um gemeinsam mit Familie, Freunden,
+                Nachbarn und Wegbegleitern einen
+                unvergesslichen Abend zu verbringen.
+
+            </p>
+
+            <p>
+
+                Ich freue mich auf viele nette Gespräche,
+                gemeinsames Lachen, gutes Essen,
+                tolle Musik und einen Abend,
+                an den wir uns noch lange erinnern werden.
+
+            </p>
+
+            <blockquote>
+
+                „Das Leben wird nicht an der Anzahl
+                der Jahre gemessen,
+                sondern an den schönen Momenten.“
+
+            </blockquote>
+
+        </div>
+
+    </div>
+
 </section>
 
-<footer>© 2026 Matze wird 60</footer>
+
+
+<!-- ==========================================
+     BILDERGALERIE
+=========================================== -->
+
+<section class="section gallery">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>📸 Erinnerungen</span>
+
+            <h2>
+
+                Ein paar Eindrücke
+
+            </h2>
+
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+
+                <img
+                    src="assets/einladung.png"
+                    alt="Einladung">
+
+            </div>
+
+            <div class="gallery-item placeholder">
+
+                <div>
+
+                    📷
+
+                    <p>
+
+                        Hier können später
+                        Bilder eingefügt werden.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="gallery-item placeholder">
+
+                <div>
+
+                    🎉
+
+                    <p>
+
+                        Platz für Fotos
+                        von der Feier.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     ANMELDUNG
+=========================================== -->
+
+<section
+    id="anmeldung"
+    class="section registration">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>✅ Anmeldung</span>
+
+            <h2>
+
+                Seid Ihr dabei?
+
+            </h2>
+
+            <p>
+
+                Bitte gebt mir bis
+                <strong>31. August 2026</strong>
+                Bescheid.
+
+            </p>
+
+        </div>
+
+        <div class="registration-card">
+
+            <form id="anmeldungForm">
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Name
+
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="Vor- und Nachname">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            E-Mail (optional)
+
+                        </label>
+
+                        <input
+                            type="email"
+                            placeholder="name@email.de">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Ich komme ...
+
+                    </label>
+
+                    <select>
+
+                        <option>
+                            🎉 Ja, ich bin dabei
+                        </option>
+
+                        <option>
+                            😢 Leider kann ich nicht
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Personen
+
+                        </label>
+
+                        <select>
+
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Freitag dabei?
+
+                        </label>
+
+                        <select>
+
+                            <option>Ja</option>
+                            <option>Nein</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Nachricht
+
+                    </label>
+
+                    <textarea
+                        rows="5"
+                        placeholder="Möchtet Ihr mir noch etwas mitteilen?"></textarea>
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="btn-primary">
+
+                    🎉 Anmeldung absenden
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     DANKESCHÖN
+=========================================== -->
+
+<section class="section thanks">
+
+    <div class="container">
+
+        <div class="thanks-box">
+
+            <h2>🎉 Danke!</h2>
+
+            <p>
+
+                Vielen Dank, dass Ihr Euch die Zeit nehmt,
+                meine Einladung anzuschauen.
+
+            </p>
+
+            <p>
+
+                Ich freue mich riesig darauf,
+                diesen besonderen Geburtstag
+                gemeinsam mit Euch zu feiern.
+
+            </p>
+
+            <a href="#home" class="btn-primary">
+
+                ↑ Nach oben
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================
+     FOOTER
+=========================================== -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>🎂 Matze wird 60</h3>
+
+            <p>
+
+                10. Oktober 2026<br>
+                Die Alm<br>
+                Hattenhofen
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Navigation</h3>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#einladung">Einladung</a></li>
+
+                <li><a href="#programm">Programm</a></li>
+
+                <li><a href="#anfahrt">Anfahrt</a></li>
+
+                <li><a href="#anmeldung">Anmeldung</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h3>Informationen</h3>
+
+            <ul>
+
+                <li>
+                    <a href="impressum.html">
+                        Impressum
+                    </a>
+                </li>
+
+                <li>
+                    <a href="datenschutz.html">
+                        Datenschutz
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 Matze wird 60 · Mit ❤️ erstellt
+
+    </div>
+
+</footer>
+
+
 <script src="script.js"></script>
+
 </body>
+
 </html>
+
