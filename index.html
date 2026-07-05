@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Matze wird 60</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="logo">🎉 Matze wird 60</div><a href="#anmeldung">Anmelden</a></nav>
+
+<header class="hero">
+<div class="glass">
+<h1>Matze wird 60</h1>
+<p>10. Oktober 2026 · Beginn 17:00 Uhr · Die Alm</p>
+<div id="countdown"></div>
+<a class="btn" href="#einladung">Zur Einladung</a>
+</div>
+</header>
+
+<section id="einladung" class="card">
+<h2>Einladung</h2>
+<img src="assets/einladung.png" alt="Einladung">
+</section>
+
+<section class="grid">
+<div class="card"><h3>🍻 Empfang</h3><p>Ab 17:00 Uhr.</p></div>
+<div class="card"><h3>🍽 Essen</h3><p>Gemeinsames Abendessen.</p></div>
+<div class="card"><h3>🎵 Party</h3><p>Musik, Tanz und gute Stimmung.</p></div>
+<div class="card"><h3>🍺 Freitag</h3><p>Musikantenstammtisch.</p></div>
+</section>
+
+<section class="card">
+<h2>📍 Veranstaltungsort</h2>
+<p>Die Alm · Reustadt 14 · 73110 Hattenhofen</p>
+<a class="btn" target="_blank" href="https://maps.google.com/?q=Die+Alm+Reustadt+14+73110+Hattenhofen">Route planen</a>
+</section>
+
+<section id="anmeldung" class="card">
+<h2>Anmeldung</h2>
+<form onsubmit="event.preventDefault();document.getElementById('ok').style.display='block';">
+<input placeholder="Name" required>
+<input placeholder="E-Mail (optional)" type="email">
+<select><option>1 Person</option><option>2 Personen</option><option>3 Personen</option><option>4 Personen</option></select>
+<label><input type="checkbox"> Ich komme auch am Freitag</label>
+<textarea placeholder="Bemerkungen"></textarea>
+<button class="btn">Anmeldung senden</button>
+</form>
+<div id="ok" style="display:none"><h3>🎉 Vielen Dank! Ich freue mich auf Euch.</h3></div>
+</section>
+
+<footer>© 2026 Matze wird 60</footer>
+<script src="script.js"></script>
+</body>
+</html>

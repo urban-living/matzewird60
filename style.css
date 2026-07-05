@@ -1,0 +1,14 @@
+body{margin:0;background:#0f1117;color:#fff;font-family:Poppins,sans-serif}
+nav{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;padding:16px 28px;background:rgba(0,0,0,.4);backdrop-filter:blur(10px)}
+a{text-decoration:none;color:white}
+.hero{height:100vh;background:linear-gradient(135deg,#00d2d3,#ff2d95);display:grid;place-items:center}
+.glass{background:rgba(255,255,255,.12);padding:40px;border-radius:20px;backdrop-filter:blur(14px);text-align:center}
+h1{font-size:4rem;margin:0}
+#countdown{font-size:1.5rem;margin:20px 0}
+.btn{background:#d6ff00;color:#111;padding:14px 24px;border-radius:999px;font-weight:700;border:none;display:inline-block}
+.card{max-width:1000px;margin:40px auto;padding:28px;background:#1b1f27;border-radius:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1000px;margin:40px auto}
+img{width:100%;border-radius:12px}
+input,select,textarea{width:100%;padding:12px;margin:8px 0;border-radius:10px;border:none}
+footer{text-align:center;padding:30px;color:#aaa}
+@media(max-width:700px){h1{font-size:2.4rem}.glass{margin:20px}}
